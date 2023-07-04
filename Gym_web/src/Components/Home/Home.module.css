@@ -1,0 +1,51 @@
+.home_section {
+    margin-top: 0;
+    background-color: rgb(51, 37, 37);
+}
+
+.home_section_one {
+    display: grid;
+    grid-template-columns: 50vw 40vw;
+}
+
+.home_image img {
+    height: 85vh;
+    width: 100%;
+    margin: 4rem;
+}
+
+.home_content {
+    color: #fff;
+    height: 90vh;
+    width: 95%;
+    margin: 4rem;
+    font-size: 2rem;
+}
+
+.home_content button {
+    background-color: green;
+    width: 6rem;
+    height: 2.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+    .home_section_one {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .home_content {
+        width: 80vw;
+        height: 40%;
+    }
+
+    .home_image img {
+        width: 40vw;
+        height: 70%;
+        margin: 2rem;
+        margin-left: 8rem;
+    }
+}

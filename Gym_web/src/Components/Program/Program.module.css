@@ -1,0 +1,81 @@
+.program_section {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.main_section h1 {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 45vw;
+    color: red;
+    font-size: 2rem;
+}
+
+.card_section {
+    min-width: 30vw;
+    height: 55vh;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgb(192, 164, 164);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid blue;
+}
+
+.image_section img {
+    max-width: 30vw;
+    height: 45vh;
+    border-radius: 10px;
+}
+
+.text_card {
+    margin-left: 30%;
+    color: #2a0f5d;
+}
+
+.first_scroll,
+.second_scroll {
+    background: transparent;
+    border: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.first_scroll p,
+.second_scroll p {
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: rgba(0, 0, 0, 0.402);
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-top: 32vh;
+    color: #fff;
+}
+
+.second_scroll {
+    right: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .main_section {
+        margin-top: 40vh;
+    }
+
+    .card_section {
+        min-width: 50vw;
+        height: 52vh;
+
+    }
+
+    .image_section img {
+        height: 18rem;
+        margin: 0 1rem 2rem 4rem;
+    }
+}

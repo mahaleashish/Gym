@@ -1,0 +1,37 @@
+.main_footer {
+    background-color: rgb(25, 16, 16);
+    border-top: 2px solid #158730;
+    width: 100%;
+    color: #a89f9f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.social {
+    margin: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services {
+    margin: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.socil_text h5 {
+    width: 70%;
+
+}
+
+.socil_text a {
+    margin: 0 .8rem;
+}
+
+@media screen and (max-width: 750px) {
+    .main_footer {
+        grid-template-columns: 1fr;
+    }
+
+}
